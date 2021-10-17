@@ -65,7 +65,9 @@ body {
 .userMessage {
     background-color: rgb(43, 137, 226);
     color: rgb(236, 246, 255);
+    border: 1px solid rgb(38, 119, 196);
     border-radius: 15px;
+    border-bottom-right-radius: 0px;
     padding: 1em;
     margin: 0.5em;
     align-self: flex-end;
@@ -73,9 +75,11 @@ body {
 }
 
 .botMessage {
-    background-color: rgb(85, 186, 233);
+    background-color: rgb(86, 194, 245);
     color: rgb(4, 13, 41);
+    border: 1px solid rgb(69, 159, 201);
     border-radius: 15px;
+    border-bottom-left-radius: 0px;
     padding: 1em;
     margin: 0.5em;
     align-self: flex-start;
