@@ -4,6 +4,7 @@ document.getElementById('chatSubmit').addEventListener('click', function (event)
     const userMessage = document.getElementById('chatInput').value;
     chatbox = chatbox + '<p class="userMessage">' + userMessage + '</p>';
     document.getElementById('chatbox').innerHTML = chatbox;
+    document.getElementById('chatInput').value = '';
     const API_KEY = 'JWm9LD7K8RA3';
     fetch(`https://api.pgamerx.com/v5/ai?message=${userMessage}&server=main`, {
         method: "get",
