@@ -94,6 +94,11 @@ form {
     padding: 1em;
 }
 
+#chatSubmit:hover {
+    background-color: rgb(155, 155, 155);
+    color: aliceblue;
+}
+
 #chatSubmit {
     flex: 1;
     height: 50px;
